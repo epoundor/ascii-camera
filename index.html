@@ -1,28 +1,29 @@
 <!doctype html>
 <html>
+
 <head>
 	<title>ascii camera</title>
 	<meta charset="utf-8" />
- 	<link rel="stylesheet" href="css/main.css"/>
+	<link rel="stylesheet" href="css/main.css" />
 	<link href="/favicon.png" rel="icon" type="image/png" />
 	<meta name="mobile-web-app-capable" content="yes">
 </head>
+
 <body>
 	<h1 id="info">Please allow this page to access your camera.</h1>
 
 	<div id="notSupported">
 		<h1>Your browser does not support the Camera API.</h1>
-		<img src="images/screenshot.png" align="center" />
+		<!-- <img src="images/screenshot.png" align="center" /> -->
 	</div>
 
 	<pre id="ascii"></pre>
 	<button id="button">start</button>
 
-	<a href="https://github.com/idevelop/ascii-camera" id="fork" target="_blank">View on GitHub</a>
-	<a href="http://idevelop.github.com/" id="idevelop" target="_blank">Made by idevelop</a>
 
-	<script src="script/camera.js"></script>
-	<script src="script/ascii.js"></script>
-	<script src="script/app.js"></script>
+	<script src="script/dist/camera.js"></script>
+	<script src="script/dist/ascii.js"></script>
+	<script src="script/dist/app.js" type="module"></script>
 </body>
+
 </html>

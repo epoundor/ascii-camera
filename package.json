@@ -1,0 +1,16 @@
+{
+  "name": "ascii-camera",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve ./2",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TANDA Epoundor Freedauss",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.1.2",
+    "typescript": "^4.9.3"
+  }
+}
